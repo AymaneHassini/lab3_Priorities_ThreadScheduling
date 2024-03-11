@@ -4,16 +4,16 @@
 Basic Observation and Analysis
 Objective: Observe the effects of different scheduling policies and priorities on thread execution order.
 
-Task: Run the provided program with different scheduling policies (SCHED_FIFO, SCHED_RR, and SCHED_OTHER) and priority levels. Document the execution order of the threads and the effect of changing policies and priorities.
+Task 1 : Run the provided program with different scheduling policies (SCHED_FIFO, SCHED_RR, and SCHED_OTHER) and priority levels. Document the execution order of the threads and the effect of changing policies and priorities.
 Submit you remarks where you will be discussing your observations, including how different priorities and policies affect the execution order and why.
 Modifying Priority Levels
 Objective: Understand how changing priority levels affects thread execution.
 
-Task: Modify the example code to create four threads with the same scheduling policy but different priority levels. Experiment various priorities to observe the impact on execution order and thread completion times.
+Task 2 : Modify the example code to create four threads with the same scheduling policy but different priority levels. Experiment various priorities to observe the impact on execution order and thread completion times.
 Analyze how the operating system's scheduler allocates CPU time to threads based on their priority.
+Task 3: 
 Implementing a Real-world Simulation
 Objective: Apply thread priority concepts to simulate a real-world scenario.
-
 Scenario: Design a simulation where threads represent tasks of varying importance, such as handling emergency services (high priority), standard user requests (medium priority), and background maintenance tasks (low priority).
 Implement the simulation, ensuring that tasks with higher importance are given higher priority and thus are executed more promptly or more often.
  
